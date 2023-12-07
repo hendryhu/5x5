@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="/registration/registration.css">
+</head>
+<body>
+<h1>Registration</h1>
+    <div id="usernameDiv">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+
+    <br>
+
+    <div id="passwordDiv">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+
+    <br>
+    
+    <div id="confirmPasswordDiv">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+    </div>
+
+    <br>
+
+    <input type="button" value="Register" id="registerButton">
+    <p id="errorMessage"></p>
+
+    <script src="/registration/js/registration.js"></script>
+</body>
+</html>
+

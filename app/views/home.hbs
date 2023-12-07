@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/styles/grid.css">
+    <link rel="stylesheet" type="text/css" href="/styles/home.css">
+</head>
+<body>
+    <h1>Home</h1>
+    <div id="content">
+        <div id="creation">
+            <div id="myGrid">
+            </div>
+            <div id="colourPicker">
+                <div id="palette">
+                </div>
+                <input type="button" value="🎲" id="randomizeButton" class="creatorButton">
+                <input type="button" value="🗑️" id="clearButton" class="creatorButton">
+            </div>
+            <div id="saveGrid">
+                <input type="text" id="gridName" placeholder="Grid Name"><br>
+                <input type="button" value="Save" id="saveButton">
+            </div>            
+        </div>
+    <div id="gridList">
+
+    </div>
+    </div>
+    <p>Welcome to the grid creation page!</p>
+    <input type="button" value="Logout" id="logoutButton">
+    <script src="/js/user.js"></script>
+    <script src="/js/gridMaker.js"></script>
+    <script src="/js/save.js"></script>
+    <script src="/js/fetch.js"></script>
+    <script src="/js/eventHandler.js"></script>
+</html>

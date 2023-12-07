@@ -1,0 +1,5 @@
+node_modules
+*.zip
+video_demo
+*.code-workspace
+.history

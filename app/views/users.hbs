@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users</title>
+</head>
+<body>
+    <h1>Users</h1>
+    <ul>
+        {{#each userEntries}}
+            <li>Username: {{this.userid}} - Role: {{this.role}}</li> 
+        {{/each}}
+    </ul>
+</body>
+</html>
