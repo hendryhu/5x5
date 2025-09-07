@@ -1,7 +1,4 @@
-Hendry Hu
-101263863
-
-ASSIGNMENT 5
+Note: This is a archived mirror of the original project repository.
 
 INSTALLATION
 Run "npm install" (without quotes) in the root directory for the required node modules.
@@ -28,6 +25,3 @@ http://localhost:3000/users
 Left from the YouTube demo, there is also a user with the "guest" role:
 username: account1
 password: 123
-
-YOUTUBE DEMO:
-https://youtu.be/Uthdd4tcmk4
